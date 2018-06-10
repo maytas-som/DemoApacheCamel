@@ -1,0 +1,18 @@
+# ===================================================================
+# Spring boot properties
+# ===================================================================
+
+spring:
+  application:
+    name: camelDemo
+
+server:
+  context-path: /camel-demo
+  port: 8080
+
+camel:
+  component:
+    servlet:
+      mapping:
+        enabled: true
+        context-path: /*
