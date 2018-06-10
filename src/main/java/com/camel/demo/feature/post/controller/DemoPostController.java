@@ -12,7 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DemoPostController extends RouteBuilder {
 
-    DemoPostService demoPostService;
+    private DemoPostService demoPostService;
     private GsonConfig gsonConfig;
 
     @Autowired
