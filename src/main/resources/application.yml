@@ -15,4 +15,4 @@ camel:
     servlet:
       mapping:
         enabled: true
-        context-path: /*
+        context-path: /api/*

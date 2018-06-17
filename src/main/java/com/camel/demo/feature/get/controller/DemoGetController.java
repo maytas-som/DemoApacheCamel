@@ -21,17 +21,15 @@ public class DemoGetController extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-        rest("/api")
-            .get("/get")
-            .param()
-                .name("param_1").type(RestParamType.query)
-                .dataType("String")
-                .name("param_2").type(RestParamType.query)
-                .dataType("String")
-            .endParam()
-            .route()
-            .process(demoGetService)
-            .marshal(gsonConfig.writeConfig())
-            .endRest();
+        rest().tag("Demo API")
+                .get("/get").description("Demo GET API.")
+                .param().name("param_1").type(RestParamType.query)
+                        .dataType("String").endParam()
+                .param().name("param_2").type(RestParamType.query)
+                        .dataType("String").endParam()
+                .route()
+                .process(demoGetService)
+                .marshal(gsonConfig.writeConfig())
+                .endRest();
     }
 }

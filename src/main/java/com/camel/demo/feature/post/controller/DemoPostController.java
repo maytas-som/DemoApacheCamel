@@ -23,9 +23,10 @@ public class DemoPostController extends RouteBuilder {
 
     @Override
     public void configure() throws Exception {
-        rest("/api")
-                .post("/post")
-                .param().name("param_1").type(RestParamType.query).arrayType("String").required(false).endParam()
+        rest().tag("Demo API")
+                .post("/post").description("Demo POST API.")
+                .param().name("param_1").type(RestParamType.query)
+                        .arrayType("String").required(false).endParam()
                 .type(DemoPostRequest.class)
                 .route()
                 .unmarshal().json(JsonLibrary.Gson, DemoPostRequest.class)
