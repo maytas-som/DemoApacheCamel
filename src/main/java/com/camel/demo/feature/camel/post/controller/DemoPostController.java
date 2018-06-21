@@ -1,8 +1,8 @@
-package com.camel.demo.feature.post.controller;
+package com.camel.demo.feature.camel.post.controller;
 
 import com.camel.demo.config.GsonConfig;
-import com.camel.demo.feature.post.domain.DemoPostRequest;
-import com.camel.demo.feature.post.service.DemoPostService;
+import com.camel.demo.feature.camel.post.domain.DemoPostRequest;
+import com.camel.demo.feature.camel.post.service.DemoPostService;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.dataformat.JsonLibrary;
 import org.apache.camel.model.rest.RestParamType;

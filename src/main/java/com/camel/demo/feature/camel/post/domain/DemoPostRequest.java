@@ -1,4 +1,4 @@
-package com.camel.demo.feature.post.domain;
+package com.camel.demo.feature.camel.post.domain;
 
 import lombok.Data;
 

@@ -1,4 +1,4 @@
-package com.camel.demo.feature.get.domain;
+package com.camel.demo.feature.camel.post.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Builder
 @AllArgsConstructor
 @NoArgsConstructor
-public class DemoGetResponse {
-    private String valueFromQueryParam1;
-    private String valueFromQueryParam2;
+public class DemoPostResponse {
+    private String valueFromQueryParam;
+    private String valueFromRequestBody;
 }

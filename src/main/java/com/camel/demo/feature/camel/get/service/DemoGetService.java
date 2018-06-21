@@ -1,6 +1,6 @@
-package com.camel.demo.feature.get.service;
+package com.camel.demo.feature.camel.get.service;
 
-import com.camel.demo.feature.get.domain.DemoGetResponse;
+import com.camel.demo.feature.camel.get.domain.DemoGetResponse;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.springframework.stereotype.Component;
