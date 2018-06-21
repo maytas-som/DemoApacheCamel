@@ -32,6 +32,6 @@ public class DemoPostController extends RouteBuilder {
                 .unmarshal().json(JsonLibrary.Gson, DemoPostRequest.class)
                 .process(demoPostService)
                 .marshal(gsonConfig.writeConfig())
-                .endRest();
-    }
+            .endRest();
+}
 }

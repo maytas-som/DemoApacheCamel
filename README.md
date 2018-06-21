@@ -16,7 +16,8 @@ mvn spring-boot:run
 ```
 
 ## Running the tests
-API will available on [http://localhost:8080/camel-demo/api](http://localhost:8080/camel-demo/api)
+* API will available on [http://localhost:8080/camel-demo/api](http://localhost:8080/camel-demo/api)
+* Swagger UI will available on [http://localhost:8080/camel-demo/swagger-ui](http://localhost:8080/camel-demo/swagger-ui)
 
 ## Deployment
 This project can deploy on Docker container.
