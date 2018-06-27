@@ -134,3 +134,75 @@
 [INFO ] 2018-06-22 00:16:58.771 [main] DemoApplication - Application start !
 [INFO ] 2018-06-22 00:18:41.333 [main] DemoApplication - Application start !
 [INFO ] 2018-06-22 00:19:46.496 [main] DemoApplication - Application start !
+[INFO ] 2018-06-26 21:46:34.037 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 00:30:32.337 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 00:42:11.057 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 00:44:11.775 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 00:46:15.568 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 00:46:38.774 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 00:50:32.172 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 00:50:37.622 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 00:53:33.280 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 00:54:13.626 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 00:59:27.679 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:00:49.272 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:00:50.674 [http-nio-8080-exec-1] IdValidator - >>>null
+[INFO ] 2018-06-28 01:07:11.491 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:07:13.498 [http-nio-8080-exec-1] IdValidator - >>>null
+[INFO ] 2018-06-28 01:07:53.380 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:07:58.788 [http-nio-8080-exec-1] IdValidator - >>>@com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-28 01:07:58.789 [http-nio-8080-exec-1] IdValidator - >>>null
+[INFO ] 2018-06-28 01:08:34.997 [http-nio-8080-exec-2] IdValidator - >>>123
+[INFO ] 2018-06-28 01:08:59.251 [http-nio-8080-exec-3] IdValidator - >>>123
+[INFO ] 2018-06-28 01:09:30.766 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:09:32.999 [http-nio-8080-exec-1] IdValidator - >>>123/false
+[INFO ] 2018-06-28 01:14:29.366 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:14:32.103 [http-nio-8080-exec-1] IdValidator - >>>123/true
+[INFO ] 2018-06-28 01:14:35.975 [http-nio-8080-exec-2] IdValidator - >>>123sdf/false
+[INFO ] 2018-06-28 01:15:19.751 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:15:48.524 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:18:10.181 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:18:17.414 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:18:41.795 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:22:07.681 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:24:02.016 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:24:30.307 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:27:44.979 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:27:47.324 [http-nio-8080-exec-1] IdValidator - >>>asdasd/false
+[INFO ] 2018-06-28 01:28:05.806 [http-nio-8080-exec-2] IdValidator - >>>123123/true
+[INFO ] 2018-06-28 01:28:46.618 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:28:51.832 [http-nio-8080-exec-1] IdValidator - @com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-28 01:28:51.833 [http-nio-8080-exec-1] IdValidator - >>>123123/true
+[INFO ] 2018-06-28 01:29:09.708 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:29:11.751 [http-nio-8080-exec-1] IdValidator - >>>@com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-28 01:29:11.752 [http-nio-8080-exec-1] IdValidator - >>>123123/true
+[INFO ] 2018-06-28 01:29:23.535 [http-nio-8080-exec-2] IdValidator - >>>asd/false
+[INFO ] 2018-06-28 01:33:33.006 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:33:38.167 [http-nio-8080-exec-1] IdValidator - >>>@com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-28 01:33:38.168 [http-nio-8080-exec-1] IdValidator - >>>asd/false
+[INFO ] 2018-06-28 01:33:56.129 [http-nio-8080-exec-2] IdValidator - >>>123sdf/false
+[INFO ] 2018-06-28 01:33:58.160 [http-nio-8080-exec-3] IdValidator - >>>123sdf/false
+[INFO ] 2018-06-28 01:36:11.445 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:36:23.455 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:36:25.215 [http-nio-8080-exec-4] IdValidator - >>>@com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-28 01:36:25.216 [http-nio-8080-exec-4] IdValidator - >>>/true
+[INFO ] 2018-06-28 01:36:25.225 [http-nio-8080-exec-4] IdValidator - >>>/true
+[INFO ] 2018-06-28 01:36:28.270 [http-nio-8080-exec-5] IdValidator - >>>/true
+[INFO ] 2018-06-28 01:36:28.271 [http-nio-8080-exec-5] IdValidator - >>>/true
+[INFO ] 2018-06-28 01:36:33.763 [http-nio-8080-exec-6] IdValidator - >>>hjkhjk/false
+[INFO ] 2018-06-28 01:36:52.750 [http-nio-8080-exec-1] IdValidator - >>>/true
+[INFO ] 2018-06-28 01:37:16.790 [http-nio-8080-exec-2] IdValidator - >>>asdasd/false
+[INFO ] 2018-06-28 01:37:40.288 [http-nio-8080-exec-10] IdValidator - >>>asdasd/false
+[INFO ] 2018-06-28 01:37:54.100 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:37:55.950 [http-nio-8080-exec-1] IdValidator - >>>@com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-28 01:37:55.950 [http-nio-8080-exec-1] IdValidator - >>>asdasd/false
+[INFO ] 2018-06-28 01:38:18.443 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:38:20.577 [http-nio-8080-exec-1] IdValidator - >>>@com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-28 01:38:20.577 [http-nio-8080-exec-1] IdValidator - >>>asdasd/false
+[INFO ] 2018-06-28 01:38:46.374 [http-nio-8080-exec-4] IdValidator - >>>asdasd/false
+[INFO ] 2018-06-28 01:39:23.486 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:39:25.683 [http-nio-8080-exec-1] IdValidator - >>>@com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-28 01:39:43.475 [http-nio-8080-exec-2] IdValidator - >>>/true
+[INFO ] 2018-06-28 01:40:06.658 [main] DemoApplication - Application start !
+[INFO ] 2018-06-28 01:40:10.484 [http-nio-8080-exec-1] IdValidator - >>>@com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-28 01:40:10.484 [http-nio-8080-exec-1] IdValidator - >>>/true
