@@ -1,10 +1,13 @@
 package com.camel.demo.feature.spring.validate.validation;
 
+import org.apache.commons.lang3.ObjectUtils;
+import org.apache.commons.lang3.StringUtils;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
+import java.util.Optional;
 import java.util.regex.Pattern;
 
 public class IdValidator implements ConstraintValidator<IsValidId, String> {
@@ -16,12 +19,10 @@ public class IdValidator implements ConstraintValidator<IsValidId, String> {
 
     @Override
     public void initialize(IsValidId isValidId) {
-        log.info(">>>"+isValidId);
     }
 
     @Override
-    public boolean isValid(String s, ConstraintValidatorContext constraintValidatorContext) {
-        log.info(">>>"+s+"/"+patternMatchWordContainNumberAndNotContainSpace.matcher(s).find());
-        return patternMatchWordContainNumberAndNotContainSpace.matcher(s).find();
+    public boolean isValid(String value, ConstraintValidatorContext constraintValidatorContext) {
+        return StringUtils.equals(value, null) ? true : patternMatchWordContainNumberAndNotContainSpace.matcher(value).find();
     }
 }

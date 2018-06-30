@@ -206,3 +206,145 @@
 [INFO ] 2018-06-28 01:40:06.658 [main] DemoApplication - Application start !
 [INFO ] 2018-06-28 01:40:10.484 [http-nio-8080-exec-1] IdValidator - >>>@com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
 [INFO ] 2018-06-28 01:40:10.484 [http-nio-8080-exec-1] IdValidator - >>>/true
+[INFO ] 2018-06-29 23:05:10.078 [main] DemoApplication - Application start !
+[INFO ] 2018-06-29 23:05:32.721 [http-nio-8080-exec-1] IdValidator - >>> isValidId : @com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-29 23:05:32.722 [http-nio-8080-exec-1] IdValidator - >>> value : /true
+[INFO ] 2018-06-29 23:05:32.737 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-29 23:07:30.908 [http-nio-8080-exec-2] IdValidator - >>> value : /true
+[INFO ] 2018-06-29 23:07:30.909 [http-nio-8080-exec-2] IdValidator - >>> value : /true
+[INFO ] 2018-06-29 23:08:11.458 [main] DemoApplication - Application start !
+[INFO ] 2018-06-29 23:08:15.278 [http-nio-8080-exec-1] IdValidator - >>> isValidId : @com.camel.demo.feature.spring.validate.validation.IsValidId(message=Value is out of range, groups=[], payload=[])
+[INFO ] 2018-06-29 23:08:15.278 [http-nio-8080-exec-1] IdValidator - >>> value : /true
+[INFO ] 2018-06-29 23:08:15.294 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-29 23:16:27.337 [http-nio-8080-exec-2] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-29 23:16:27.338 [http-nio-8080-exec-2] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-29 23:32:50.562 [http-nio-8080-exec-3] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-29 23:32:50.562 [http-nio-8080-exec-3] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 00:10:41.519 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 00:10:43.793 [http-nio-8080-exec-1] IdValidator - >>> isValidId : @com.camel.demo.feature.spring.validate.validation.IsValidId(message=GGEZ, groups=[], payload=[])
+[INFO ] 2018-06-30 00:10:43.794 [http-nio-8080-exec-1] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 00:10:43.809 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 00:11:43.809 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 00:11:47.526 [http-nio-8080-exec-1] IdValidator - >>> isValidId : @com.camel.demo.feature.spring.validate.validation.IsValidId(message=GGEZ, groups=[], payload=[])
+[INFO ] 2018-06-30 00:11:47.526 [http-nio-8080-exec-1] IdValidator - >>> constraintValidatorContext : org.hibernate.validator.internal.engine.constraintvalidation.ConstraintValidatorContextImpl@5c06cdc1
+[INFO ] 2018-06-30 00:11:47.527 [http-nio-8080-exec-1] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 00:11:47.550 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 01:09:44.689 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 01:09:47.743 [http-nio-8080-exec-1] IdValidator - 
+[INFO ] 2018-06-30 01:09:47.744 [http-nio-8080-exec-1] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 01:09:47.755 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:14:20.395 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:14:25.259 [http-nio-8080-exec-1] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:14:25.272 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:15:03.696 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:15:06.418 [http-nio-8080-exec-1] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:15:06.429 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:16:32.948 [http-nio-8080-exec-2] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:16:32.949 [http-nio-8080-exec-2] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:17:23.315 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:17:26.977 [http-nio-8080-exec-1] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:17:26.990 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:27:46.239 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:27:57.479 [http-nio-8080-exec-1] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:27:57.490 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:29:52.587 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:29:56.648 [http-nio-8080-exec-1] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:29:56.659 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:29:59.071 [http-nio-8080-exec-2] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:29:59.072 [http-nio-8080-exec-2] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:30:00.762 [http-nio-8080-exec-3] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:30:00.762 [http-nio-8080-exec-3] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:30:01.643 [http-nio-8080-exec-4] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:30:01.643 [http-nio-8080-exec-4] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:30:02.887 [http-nio-8080-exec-6] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:30:02.887 [http-nio-8080-exec-6] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:30:04.678 [http-nio-8080-exec-7] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:30:04.678 [http-nio-8080-exec-7] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:31:53.999 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:31:55.476 [http-nio-8080-exec-1] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 02:31:55.490 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 02:32:08.725 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:36:34.606 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:36:37.574 [http-nio-8080-exec-1] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 02:36:37.575 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 02:37:04.506 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:37:06.374 [http-nio-8080-exec-1] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 02:37:06.375 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 02:37:12.156 [http-nio-8080-exec-2] IdValidator - >>> value : asdf/false
+[INFO ] 2018-06-30 02:37:12.157 [http-nio-8080-exec-2] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 02:41:50.130 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:41:51.298 [http-nio-8080-exec-1] IdValidator - >>> value : asdf/false
+[INFO ] 2018-06-30 02:41:51.316 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 02:44:12.751 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:44:14.446 [http-nio-8080-exec-1] IdValidator - >>> value : asdf/false
+[INFO ] 2018-06-30 02:44:14.456 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 02:54:53.214 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 02:54:56.320 [http-nio-8080-exec-1] IdValidator - >>> value : asdf/false
+[INFO ] 2018-06-30 02:54:56.333 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 03:05:08.782 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 03:05:17.196 [http-nio-8080-exec-1] IdValidator - >>> value : asdf/false
+[INFO ] 2018-06-30 03:05:17.206 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 03:05:23.992 [http-nio-8080-exec-2] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 03:05:23.992 [http-nio-8080-exec-2] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 03:06:06.201 [http-nio-8080-exec-3] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 03:06:06.203 [http-nio-8080-exec-3] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 03:06:44.609 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 03:06:47.178 [http-nio-8080-exec-1] IdValidator - >>> value : ฟหกฟ/false
+[INFO ] 2018-06-30 03:06:47.192 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 03:06:52.236 [http-nio-8080-exec-2] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 03:06:52.238 [http-nio-8080-exec-2] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 03:07:10.535 [http-nio-8080-exec-3] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 03:07:10.536 [http-nio-8080-exec-3] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 03:07:13.766 [http-nio-8080-exec-4] IdValidator - >>> value : redfg/false
+[INFO ] 2018-06-30 03:07:13.766 [http-nio-8080-exec-4] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 03:08:06.704 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 03:08:09.478 [http-nio-8080-exec-1] IdValidator - >>> value : redfg/false
+[INFO ] 2018-06-30 03:08:09.489 [http-nio-8080-exec-1] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 03:08:14.193 [http-nio-8080-exec-2] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 03:08:14.193 [http-nio-8080-exec-2] GlobalExceptionHandler - >>> EZ
+[INFO ] 2018-06-30 03:08:16.753 [http-nio-8080-exec-3] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 03:08:16.755 [http-nio-8080-exec-3] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 03:08:18.156 [http-nio-8080-exec-4] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 03:08:18.157 [http-nio-8080-exec-4] GlobalExceptionHandler - >>> GG
+[INFO ] 2018-06-30 14:27:52.130 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 14:27:54.152 [http-nio-8080-exec-1] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 14:41:45.985 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 14:41:48.338 [http-nio-8080-exec-1] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 14:41:48.344 [http-nio-8080-exec-1] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 14:41:50.497 [http-nio-8080-exec-2] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 14:41:50.497 [http-nio-8080-exec-2] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 14:43:46.860 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 14:43:50.767 [http-nio-8080-exec-1] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 14:44:01.326 [http-nio-8080-exec-2] IdValidator - >>> value : /true
+[INFO ] 2018-06-30 16:49:23.640 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 17:09:18.098 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 17:09:45.906 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 17:10:15.444 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 17:12:30.562 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 17:13:34.126 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 17:13:45.519 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 17:16:16.178 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 17:22:17.077 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 17:23:02.001 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 17:23:50.397 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 22:57:19.844 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 23:00:31.272 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 23:02:50.616 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 23:05:02.806 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 23:05:05.860 [http-nio-8080-exec-1] testController - This parameter can not be empty or null.
+[INFO ] 2018-06-30 23:05:05.860 [http-nio-8080-exec-1] testController - This parameter can not be empty or null.
+[INFO ] 2018-06-30 23:08:28.991 [main] DemoApplication - Application start !
+[DEBUG] 2018-06-30 23:08:31.381 [http-nio-8080-exec-1] IdValidator - null
+[INFO ] 2018-06-30 23:10:53.964 [main] DemoApplication - Application start !
+[DEBUG] 2018-06-30 23:10:56.280 [http-nio-8080-exec-1] IdValidator - null
+[DEBUG] 2018-06-30 23:10:56.282 [http-nio-8080-exec-1] IdValidator - null
+[INFO ] 2018-06-30 23:10:56.283 [http-nio-8080-exec-1] testController - This parameter can not be empty or null.
+[INFO ] 2018-06-30 23:10:56.283 [http-nio-8080-exec-1] testController - This parameter can not be empty or null.
+[INFO ] 2018-06-30 23:12:29.722 [main] DemoApplication - Application start !
+[INFO ] 2018-06-30 23:12:32.122 [http-nio-8080-exec-1] testController - This parameter can not be empty or null.
+[INFO ] 2018-06-30 23:12:32.122 [http-nio-8080-exec-1] testController - This parameter can not be empty or null.
+[INFO ] 2018-06-30 23:18:53.557 [main] DemoApplication - Application start !
+[INFO ] 2018-07-01 00:04:49.861 [main] DemoApplication - Application start !
+[INFO ] 2018-07-01 00:05:42.925 [main] DemoApplication - Application start !
+[INFO ] 2018-07-01 00:06:09.772 [main] DemoApplication - Application start !
+[INFO ] 2018-07-01 00:16:07.161 [main] DemoApplication - Application start !

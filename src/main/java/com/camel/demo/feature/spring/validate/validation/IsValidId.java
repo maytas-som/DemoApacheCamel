@@ -11,9 +11,11 @@ import java.lang.annotation.*;
         validatedBy = {IdValidator.class}
 )
 public @interface IsValidId {
-    String message() default "Value is out of range";
+
+    String message() default "This parameter is invalid format.";
 
     Class<?>[] groups() default {};
 
     Class<? extends Payload>[] payload() default {};
+
 }
