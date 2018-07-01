@@ -5,6 +5,8 @@
 spring:
   application:
     name: camelDemo
+  jackson:
+    property-naming-strategy: SNAKE_CASE
 
 server:
   context-path: /camel-demo

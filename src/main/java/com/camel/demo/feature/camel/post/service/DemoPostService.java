@@ -1,7 +1,7 @@
-package com.camel.demo.feature.post.service;
+package com.camel.demo.feature.camel.post.service;
 
-import com.camel.demo.feature.post.domain.DemoPostRequest;
-import com.camel.demo.feature.post.domain.DemoPostResponse;
+import com.camel.demo.feature.camel.post.domain.DemoPostResponse;
+import com.camel.demo.feature.camel.post.domain.DemoPostRequest;
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.apache.logging.log4j.LogManager;

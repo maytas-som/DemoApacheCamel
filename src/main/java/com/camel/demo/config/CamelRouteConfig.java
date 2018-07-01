@@ -18,11 +18,11 @@ public class CamelRouteConfig extends RouteBuilder {
 
                 //Swagger properties
                 .contextPath("/camel-demo/api") //base.path swagger property; use the mapping path set for CamelServlet
-                .apiProperty("api.title", "Swagger UI with Apache Camel-servlet")
-                .apiProperty("api.version", "1.0")
-                .apiProperty("api.contact.name", "Maytas Somsmai")
-                .apiProperty("api.contact.email", "maytas.som@gmail.com")
-                .apiProperty("api.contact.url", "https://github.com/maytas-som/DemoApacheCamel")
+                .apiProperty("spring.title", "Swagger UI with Apache Camel-servlet")
+                .apiProperty("spring.version", "1.0")
+                .apiProperty("spring.contact.name", "Maytas Somsmai")
+                .apiProperty("spring.contact.email", "maytas.som@gmail.com")
+                .apiProperty("spring.contact.url", "https://github.com/maytas-som/DemoApacheCamel")
                 .apiProperty("host", "") //by default 0.0.0.0
                 .apiProperty("port", "8080")
                 .apiProperty("schemes", "")

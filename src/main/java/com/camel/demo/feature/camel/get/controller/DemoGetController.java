@@ -1,7 +1,7 @@
-package com.camel.demo.feature.get.controller;
+package com.camel.demo.feature.camel.get.controller;
 
 import com.camel.demo.config.GsonConfig;
-import com.camel.demo.feature.get.service.DemoGetService;
+import com.camel.demo.feature.camel.get.service.DemoGetService;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.rest.RestParamType;
 import org.springframework.beans.factory.annotation.Autowired;
